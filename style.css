@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(204, 43%, 93%) ;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    }
+.contenaire-principal{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    transform: translate(30% ,15%);
+}
+.first-section{
+    height: 50vh;
+    background-color: white;
+     border-radius: 8px 8px 0 0;
+     padding: 30px;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 2em;
+}
+h3{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.5em;
+    padding-top: 30px;
+
+}
+.color-paragraphe{
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.second-section{
+display: flex;
+color: white;
+height: 80vh;
+}
+div{
+    padding: 3rem;
+
+}
+.first-div{
+    background-color:hsl(179, 56%, 43%) ;
+    width: 50%;
+    border-radius: 0 0 0 8px;
+
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 230px;
+    height: 50px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    
+    
+}
+.second-div{
+    background-color:hsl(179, 62%, 43%); 
+    width: 50% ;
+    border-radius: 0 0 8px 0;
+
+}
+
+h2{
+font-size: 1.4em;
+}
+p ,h2{
+    padding-bottom: 40px;
+}
+strong{
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1123px) {
+    p ,h2{
+        padding-bottom: 20px;
+    }
+    div{
+        padding: 2.5rem;
+    
+    }
+}
+@media screen and (max-width: 1049px) {
+   
+    div{
+        padding: 2rem;
+    
+    } 
+}
+@media screen and (max-width:995px) {
+
+    div{
+        padding: 1.5rem;
+    } 
+}
+@media screen and (max-width:974px) {
+
+    div{
+        padding: 1.1rem;
+    } 
+}
+@media screen and (max-width:883px) {
+
+    div{
+        padding: 1rem;
+    } 
+    button{
+        width: 210px;
+    }
+}
+@media screen and (max-width:829px) {
+
+    
+    button{
+        width: 150px;
+        height: 40px;  
+    }
+}
+@media screen and (max-width:619px) {
+    .second-section{
+        display: block;
+            }
+            .first-div{
+                width: 100%;
+            }
+            .second-div{
+                width: 100%;
+            }
+            .first-div{
+                border-radius: 0;
+            }
+            .second-div{
+                border-radius: 0 0 8px 8px;
+            }
+            button{
+                
+            }
+}
+
+@media screen and (max-width:451px) {
+    h1{
+        font-size: 25px;
+    }
+    h3{
+      font-size: 20px;
+        padding-top: 15px;
+    
+    }
+    .color-paragraphe{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    h2{
+        font-size: 1em;
+        }
+        p ,h2{
+            padding-bottom: 20px;
+        }
+        strong{
+            font-size: 1em;
+        }
+        button{
+            width: 150px;
+            height: 30px;
+
+        }
+}
